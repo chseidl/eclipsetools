@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ecore Utilities
+Bundle-SymbolicName: de.christophseidl.util.ecore;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: de.christophseidl.util.ecore,
+ de.christophseidl.util.ecore.validation,
+ de.christophseidl.util.ecore.validation.adapter
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
+ org.eclipse.emf.ecore.xmi;visibility:=reexport,
+ org.eclipse.emf.codegen.ecore;visibility:=reexport,
+ org.eclipse.emf.validation;visibility:=reexport,
+ de.christophseidl.util.eclipse;visibility:=reexport,
+ de.christophseidl.util.java;visibility:=reexport

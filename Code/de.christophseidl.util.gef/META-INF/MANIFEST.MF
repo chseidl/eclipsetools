@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GEF Utilities
+Bundle-SymbolicName: de.christophseidl.util.gef;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.gef;bundle-version="3.0.0";visibility:=reexport,
+ org.eclipse.core.runtime;bundle-version="3.0.0",
+ org.eclipse.ui.ide;bundle-version="3.0.0";visibility:=reexport,
+ org.eclipse.ui.editors;bundle-version="3.0.0";visibility:=reexport,
+ org.eclipse.emf;visibility:=reexport,
+ org.eclipse.emf.validation;visibility:=reexport,
+ org.eclipse.jface;bundle-version="3.0.0",
+ de.christophseidl.util.ecore;visibility:=reexport,
+ de.christophseidl.util.eclipse.ui;visibility:=reexport
+Export-Package: de.christophseidl.util.gef.action,
+ de.christophseidl.util.gef.contextmenu,
+ de.christophseidl.util.gef.editor,
+ de.christophseidl.util.gef.tool,
+ de.christophseidl.util.gef.util
+Bundle-ActivationPolicy: lazy

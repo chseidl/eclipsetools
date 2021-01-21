@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Java Utilities
+Bundle-SymbolicName: de.christophseidl.util.java;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: de.christophseidl.util.java,
+ de.christophseidl.util.java.util
+Bundle-ActivationPolicy: lazy
